@@ -1,0 +1,70 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Work Experience</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Software Developer</h5>
+                    <p class="card-text">Tech Company, 2019 - Present</p>
+                    <p>Developing and maintaining web applications using ASP.NET MVC and cloud-based solutions.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Junior Developer</h5>
+                    <p class="card-text">Another Company, 2017 - 2019</p>
+                    <p>Assisted in developing software solutions and participated in agile development processes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Add some custom styles for the timeline -->
+<style>
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    padding: 1rem;
+    list-style: none;
+    max-width: 1000px;
+}
+
+.timeline-item {
+    margin-bottom: 2rem;
+    padding-left: 40px;
+    position: relative;
+}
+
+.timeline-item h4 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 100%;
+    width: 2px;
+    background: #007bff;
+}
+
+.timeline-item:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #007bff;
+}
+</style>

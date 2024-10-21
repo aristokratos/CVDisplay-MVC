@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ResumeDisplayProject
+build_property.RootNamespace = ResumeDisplayProject
+build_property.ProjectDir = C:\Users\oluwatobilobao\source\repos\Frontend\ResumeDisplayProject\ResumeDisplayProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\oluwatobilobao\source\repos\Frontend\ResumeDisplayProject\ResumeDisplayProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Cv/Education.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3ZcRWR1Y2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Cv/Experience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3ZcRXhwZXJpZW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Cv/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3ZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Cv/Skills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3ZcU2tpbGxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Cv/TaxCalculator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3ZcVGF4Q2FsY3VsYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oluwatobilobao/source/repos/Frontend/ResumeDisplayProject/ResumeDisplayProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-uxagh56vaz

@@ -1,0 +1,41 @@
+﻿@model TaxViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid d-flex align-items-center justify-content-center" style="height: 100vh;">
+    <div class="container" style="max-width: 500px;">
+        <h2 class="text-center">Tax Calculator</h2>
+        <p class="text-center mb-4">Enter your income to calculate estimated taxes.</p>
+
+        <!-- Validation Summary for displaying error messages -->
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <!-- Tax Calculator Form -->
+        <form method="post" action="/Cv/CalculateTax" class="mx-auto">
+            <div class="form-group">
+                <label for="income">Annual Income:</label>
+                <input type="text" class="form-control" id="income" name="Income" value="@Model.Income" />
+            </div>
+            <button type="submit" class="btn btn-primary w-100 mt-3">Calculate Tax</button>
+        </form>
+
+        <!-- Display Calculated Tax -->
+        @if (Model.Tax != null)
+        {
+            <div class="alert alert-info mt-4 text-center">
+                <p>Your calculated tax is: <strong>@Model.Tax</strong></p>
+            </div>
+        }
+    </div>
+</div>

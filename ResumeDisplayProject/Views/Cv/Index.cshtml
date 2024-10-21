@@ -1,0 +1,83 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid hero-section text-light d-flex align-items-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/wwwroot/images/comspace.jpeg') center center/cover; height: 100vh;">
+    <div class="container text-center">
+        <h1 class="display-4">Welcome to My Online CV</h1>
+        <p class="lead">Showcasing my academic background, work experience, and professional skills.</p>
+        <div class="mt-4">
+            <a href="/Cv/Education" class="btn btn-primary btn-lg me-3">
+                <i class="fas fa-graduation-cap"></i> Explore My Education
+            </a>
+            <a href="/Cv/Experience" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-briefcase"></i> View Work Experience
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="container mt-5 py-5">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <p class="text-center">
+                I am a passionate software engineer with a strong background in full-stack development. With hands-on experience in various technologies, I love building efficient, scalable applications that solve real-world problems. My journey includes academic excellence in computer science and professional experience at top tech companies.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Skills Overview Section -->
+<div class="container mt-5 py-5 text-center bg-light">
+    <h2 class="mb-4">Core Skills</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <i class="fas fa-code fa-3x text-primary"></i>
+            <h5 class="mt-2">Full-Stack Development</h5>
+            <p>Proficient in building responsive and scalable web applications using modern frameworks and technologies.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <i class="fas fa-cloud fa-3x text-primary"></i>
+            <h5 class="mt-2">Cloud Computing</h5>
+            <p>Experience in cloud platforms like Azure, AWS, and implementing CI/CD pipelines for automated deployments.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <i class="fas fa-shield-alt fa-3x text-primary"></i>
+            <h5 class="mt-2">Cybersecurity</h5>
+            <p>Knowledgeable in implementing security best practices, encryption, and securing applications from vulnerabilities.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonial Section -->
+<div class="container-fluid testimonial-section text-light py-5" style="background-color: #343a40;">
+    <div class="container text-center">
+        <h2 class="mb-4">What Others Say</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <blockquote class="blockquote">
+                    <p>"An exceptional developer with a keen eye for detail. Delivers projects on time with exceptional quality!"</p>
+                    <footer class="blockquote-footer text-light">John Doe, Senior Software Engineer at ABC Corp</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Social Links Section -->
+<div class="container text-center py-5">
+    <h2 class="mb-4">Connect With Me</h2>
+    <a href="https://linkedin.com/in/yourprofile" class="btn btn-outline-primary me-3">
+        <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/yourprofile" class="btn btn-outline-dark me-3">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="mailto:your.email@example.com" class="btn btn-outline-danger">
+        <i class="fas fa-envelope"></i> Email Me
+    </a>
+</div>
+
+<!-- Optional: Add Font Awesome Icons if needed -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
